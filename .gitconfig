@@ -135,7 +135,7 @@
 [commit]
 
 	# https://help.github.com/articles/signing-commits-using-gpg/
-	gpgsign = true
+	gpgsign = false
 
 [diff]
 
@@ -185,7 +185,9 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
-
+	
 [url "git@bitbucket.org:"]
+	insteadOf = https://bitbucket.org/
 
-    insteadOf = https://bitbucket.org/
+[user]
+	name = Prathamesh Juvatkar
