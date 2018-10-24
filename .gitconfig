@@ -190,4 +190,5 @@
 	insteadOf = https://bitbucket.org/
 
 [user]
-	name = Prathamesh Juvatkar
+	name = "Prathamesh Juvatkar"
+	email = "prathamesh.juvatkar@gmail.com"

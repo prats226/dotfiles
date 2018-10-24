@@ -1,6 +1,9 @@
 # Compiled Python files
 *.pyc
 
+# Ipython files
+.ipynb_checkpoints
+
 # Folder view configuration files
 .DS_Store
 Desktop.ini
@@ -12,3 +15,6 @@ Thumbs.db
 # Files that might appear on external disks
 .Spotlight-V100
 .Trashes
+
+#VSCode
+.vscode
