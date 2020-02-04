@@ -69,3 +69,9 @@ export PYTHONPATH=$PYTHONPATH:"/Users/prats/workspace/models/research":"/Users/p
 
 if command -v pyenv 1>/dev/null 2>&1; then eval "$(pyenv init -)"; fi
 export ENVIRONMENT=LOCAL
+export PIP_NO_CACHE_DIR=false
+
+# https://werat.github.io/2017/02/04/tmux-ssh-agent-forwarding.html
+if [ ! -S ~/.ssh/ssh_auth_sock ] && [ -S "$SSH_AUTH_SOCK" ]; then
+    ln -sf $SSH_AUTH_SOCK ~/.ssh/ssh_auth_sock
+fi
