@@ -68,7 +68,6 @@ export PATH="$PYENV_ROOT/bin:$GOPATH/bin:$PATH"
 export PYTHONPATH=$PYTHONPATH:"/Users/prats/workspace/models/research":"/Users/prats/workspace/models/research/slim"
 
 if command -v pyenv 1>/dev/null 2>&1; then eval "$(pyenv init -)"; fi
-export ENVIRONMENT=LOCAL
 export PIP_NO_CACHE_DIR=false
 
 # https://werat.github.io/2017/02/04/tmux-ssh-agent-forwarding.html
