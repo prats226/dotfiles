@@ -54,7 +54,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
-
+[[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/prats/workspace/google-cloud-sdk/path.bash.inc' ]; then . '/Users/prats/workspace/google-cloud-sdk/path.bash.inc'; fi
 

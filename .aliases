@@ -149,3 +149,9 @@ alias reload="exec ${SHELL} -l"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+#nanonets_api_server
+alias nanonets_api_server='cd ~/workspace/src/bitbucket.org/nanonets/nanonets_api_server'
+
+#customers
+alias customers='cd ~/workspace/customers'
