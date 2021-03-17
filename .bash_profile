@@ -65,7 +65,7 @@ export GOPATH=$HOME/workspace
 export PYENV_ROOT="$HOME/.pyenv"
 
 export PATH="$PYENV_ROOT/bin:$GOPATH/bin:$PATH"
-export PYTHONPATH=$PYTHONPATH:"/Users/prats/workspace/models/research":"/Users/prats/workspace/models/research/slim"
+export PYTHONPATH=$PYTHONPATH:"/Users/prats/workspace/models/research":"/Users/prats/workspace/models/research/slim":"/Users/prats/workspace/customers"
 
 if command -v pyenv 1>/dev/null 2>&1; then eval "$(pyenv init -)"; fi
 export PIP_NO_CACHE_DIR=false
